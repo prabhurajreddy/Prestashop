@@ -25,9 +25,9 @@
 */
 
 /* Debug only */
-@ini_set('display_errors', 'off');
+@ini_set('display_errors', 'on');
 define('_PS_DEBUG_SQL_', false);
-
+error_reporting("E_ALL");
 $start_time = microtime(true);
 
 /* Compatibility warning */

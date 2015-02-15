@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.11, created on 2015-01-24 11:39:39
+<?php /* Smarty version Smarty-3.1.11, created on 2015-02-15 12:33:50
          compiled from "/home/student/public_html/prestashop/themes/prestashop/category-count.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:6355948954c313fb5c35f1-66325502%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:126134541854e021ae7b0d89-27573453%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '6355948954c313fb5c35f1-66325502',
+  'nocache_hash' => '126134541854e021ae7b0d89-27573453',
   'function' => 
   array (
   ),
@@ -22,9 +22,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.11',
-  'unifunc' => 'content_54c313fb775d60_67977930',
+  'unifunc' => 'content_54e021ae7e8e55_74243646',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_54c313fb775d60_67977930')) {function content_54c313fb775d60_67977930($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_54e021ae7e8e55_74243646')) {function content_54e021ae7e8e55_74243646($_smarty_tpl) {?>
 <?php if ($_smarty_tpl->tpl_vars['category']->value->id==1||$_smarty_tpl->tpl_vars['nb_products']->value==0){?><?php echo smartyTranslate(array('s'=>'There are no products in  this category'),$_smarty_tpl);?>
 
 <?php }else{ ?>

@@ -39,6 +39,8 @@
 	{if $voucherAllowed}
 		<li><a href="{$link->getPageLink('discount.php', true)}" title="{l s='Vouchers'}"><img src="{$img_dir}icon/voucher.gif" alt="{l s='Vouchers'}" class="icon" /></a><a href="{$link->getPageLink('discount.php', true)}" title="{l s='Vouchers'}">{l s='My vouchers'}</a></li>
 	{/if}
+	<li><a href="http://localhost/prestashop/modules/admanage/admanage_page.php" title="admanage"><img src="{$img_dir}icon/voucher.gif" alt="{l s='Vouchers'}" class="icon" /><a href="http://localhost/prestashop/modules/admanage/admanage_page.php" title="admanage">{l s='Advertise Here'}</a></li>
+	<li><a href="http://localhost/prestashop/modules/admanage/advertisestats.php" title="admanage"><img src="{$img_dir}icon/voucher.gif" alt="{l s='Vouchers'}" class="icon" /><a href="http://localhost/prestashop/modules/admanage/advertisestats.php" title="admanage">{l s='Advertise Statistics'}</a></li>
 	{$HOOK_CUSTOMER_ACCOUNT}
 </ul>
 <p><a href="{$base_dir}" title="{l s='Home'}"><img src="{$img_dir}icon/home.gif" alt="{l s='Home'}" class="icon" /></a><a href="{$base_dir}" title="{l s='Home'}">{l s='Home'}</a></p>

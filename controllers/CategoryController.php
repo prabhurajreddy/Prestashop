@@ -29,7 +29,6 @@ class CategoryControllerCore extends FrontController
 	public $php_self = 'category.php';
 	
 	protected $category;
-
 	public function setMedia()
 	{
 		parent::setMedia();
@@ -145,9 +144,10 @@ class CategoryControllerCore extends FrontController
 				
 				if (isset(self::$cookie->id_compare))
 					self::$smarty->assign('compareProducts', CompareProduct::getCompareProducts((int)self::$cookie->id_compare));
+				//self::$smarty->assign('advertisecategory',(int)Tools::getValue('id_category'));
+				$advertisecategory =  (int)Tools::getValue('id_category');
 			}
 		}
-
 		self::$smarty->assign(array(
 			'allow_oosp' => (int)(Configuration::get('PS_ORDER_OUT_OF_STOCK')),
 			'comparator_max_item' => (int)(Configuration::get('PS_COMPARATOR_MAX_ITEM')),
