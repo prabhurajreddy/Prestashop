@@ -1,0 +1,1 @@
+{$mymodule_ErrorMessage}

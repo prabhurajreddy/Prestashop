@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.11, created on 2015-02-15 12:32:09
+<?php /* Smarty version Smarty-3.1.11, created on 2015-02-15 16:38:47
          compiled from "/home/student/public_html/prestashop/themes/prestashop/modules/homefeatured/homefeatured.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:71909409554e02149240186-32307489%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:180610851954e05b17d51039-16427967%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '71909409554e02149240186-32307489',
+  'nocache_hash' => '180610851954e05b17d51039-16427967',
   'function' => 
   array (
   ),
@@ -34,9 +34,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.11',
-  'unifunc' => 'content_54e02149428c52_27267376',
+  'unifunc' => 'content_54e05b180057c7_18556827',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_54e02149428c52_27267376')) {function content_54e02149428c52_27267376($_smarty_tpl) {?><?php if (!is_callable('smarty_function_math')) include '/home/student/public_html/prestashop/tools/smarty/plugins/function.math.php';
+<?php if ($_valid && !is_callable('content_54e05b180057c7_18556827')) {function content_54e05b180057c7_18556827($_smarty_tpl) {?><?php if (!is_callable('smarty_function_math')) include '/home/student/public_html/prestashop/tools/smarty/plugins/function.math.php';
 if (!is_callable('smarty_modifier_escape')) include '/home/student/public_html/prestashop/tools/smarty/plugins/modifier.escape.php';
 ?>
 
